@@ -3,7 +3,7 @@
 
         editor.on('init', function () {
             editor.formatter.register({
-                lineheight: {inline: 'span', styles: {'line-height': '%value'}}
+                lineheight: {selector: 'p,h1,h2,h3,h4,h5,h6', styles: {'line-height': '%value'}}
             });
         });
 
